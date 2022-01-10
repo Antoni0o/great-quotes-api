@@ -14,6 +14,4 @@ app.use(express.json());
 app.use(router);
 app.use(errorMiddleware)
 
-app.listen(process.env.PORT || 4000, () => {
-  console.log('App is runing on port 4000!');
-});
+app.listen(process.env.PORT || 4000);
