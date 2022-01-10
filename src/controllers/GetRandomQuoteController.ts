@@ -5,7 +5,7 @@ import { GetQuoteService } from "../services/GetQuoteService";
 
 class GetRandomQuoteController { 
   async handle(req: Request, res: Response) {
-    const url = "http://localhost:4000/quote/count"
+    const url = `${process.env.API_URL}/quote/count`
   
     const { data } = await axios.get(url)
 
