@@ -35,7 +35,7 @@
 			  }
 			],
 			"@typescript-eslint/quotes": [
-				"double",
+				"ignore",
 				{
 					"avoidEscape": true,
 					"allowTemplateLiterals": true
